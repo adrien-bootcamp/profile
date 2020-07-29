@@ -1,0 +1,126 @@
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  color: rgba(250,250,250,0.9);
+  background-image: url('images/terrain.jpg');
+  background-size: cover;
+  margin: 0;
+  }
+
+  h1, h3, h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 50px;
+    opacity:
+  }
+
+  h3 {
+    text-decoration: underline overline #04783C;
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .img-circle {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+
+  .container, #footer {
+    padding: 30px;
+    width: 750px;
+    margin: 10px auto;
+    border-radius: 4px;
+  }
+
+  #footer {
+    margin: 0;
+    width: 100%;
+  }
+
+  .container:hover, #footer:hover {
+    box-shadow: 0px 0px 12px 0px rgba(0, 255, 255, .1);
+  }
+
+  #header {
+    margin: 10px;
+  }
+
+  li {
+    display: inline;
+    padding: 20px;
+  }
+
+  ul {
+    padding: 0px;
+    list-style: none;
+    font-size: 35px;
+  }
+
+  .call-to-action {
+    margin: 30px;
+  }
+
+  #description {
+    text-align: center;
+  }
+
+  .btn-main {
+    text-decoration: none;
+    padding: 8px;
+    color: #04783C;
+    font-weight: bold;
+    background-color: #280D3A;
+    border-radius: 5px;
+    border: solid;
+  }
+
+  .btn-main:hover {
+    color: #280D3A;
+    background-color: #04783C;
+    border-color: #280D3A;
+  }
+
+
+
+@media (max-width: 2000px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container, #footer {
+    z-index: 2;
+    padding: 30px;
+    width: 750px;
+    margin: 10px auto;
+    border-radius: 4px;
+  }
+
+@media (max-width: 850px) {
+  /* For a screen < 720px, this CSS will be read */
+
+  .container, #footer {
+    padding: 30px;
+    width: 500px;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+
+  }
+
+@media (max-width: 700px) {
+  /* For a screen < 540px, this CSS will be read */
+
+
+  .container, #footer {
+    padding: 30px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  }
+
+}
